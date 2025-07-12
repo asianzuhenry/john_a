@@ -51,7 +51,7 @@ main {
   justify-content: space-between;
   padding: 2rem;
   /* background: linear-gradient(to right, #4a90e2, #50e3c2); */
-  background-image: url("/assets/background_image.png");
+  background-image: url("./assets/background_image.png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -231,7 +231,7 @@ main {
   align-items: center;
   justify-content: center;
   padding: 2rem;
-  background-image: url("/assets/contact_me2.png");
+  background-image: url("./assets/contact_me2.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
