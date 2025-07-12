@@ -54,7 +54,6 @@ main {
   background-image: url("./assets/background_image.png");
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
   background-repeat: no-repeat;
   color: #fff;
   height: 100vh;
@@ -170,6 +169,13 @@ main {
   padding: 2rem;
   background: linear-gradient(to right, #4a90e2, #50e3c2);
   height: 100vh;
+}
+@media screen and (max-width: 768px) {
+  #projects {
+    height: auto;
+    padding: 2rem 1rem;
+  }
+  
 }
 #projects .projects {
   max-width: 800px;
